@@ -1,0 +1,909 @@
+{
+	"name": "Application Whitelisting",
+	"version": "2.0",
+	"domain": "mitre-enterprise",
+	"description": "Captures which of the technique's mitigations mention application whitelisting",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"windows",
+			"linux",
+			"mac"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1015",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1015",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1182",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1182",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1103",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1103",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1017",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1010",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1123",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1119",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1020",
+			"tactic": "exfiltration",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1009",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1217",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1191",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1191",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1042",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1115",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1116",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1122",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1122",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1002",
+			"tactic": "exfiltration",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1022",
+			"tactic": "exfiltration",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1074",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1039",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1025",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1140",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1172",
+			"tactic": "command-and-control",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1106",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1211",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1181",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1181",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1107",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1006",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1044",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1044",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1061",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1066",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1202",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "credential-access",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1118",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1118",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1215",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1161",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1149",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1031",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1170",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1170",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1096",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1128",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1126",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1135",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "credential-access",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1050",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1050",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1137",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1097",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1034",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1034",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1120",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1069",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1013",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1013",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1186",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1093",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1108",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1108",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1060",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1121",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1121",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1219",
+			"tactic": "command-and-control",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1018",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "initial-access",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1014",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1198",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1198",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1113",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1063",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1035",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1058",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1058",
+			"tactic": "privilege-escalation",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1023",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1045",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1016",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1049",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1033",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1007",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1124",
+			"tactic": "discovery",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1080",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1209",
+			"tactic": "persistence",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1099",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "defense-evasion",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "execution",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1111",
+			"tactic": "credential-access",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1125",
+			"tactic": "collection",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		},
+		{
+			"techniqueID": "T1077",
+			"tactic": "lateral-movement",
+			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
